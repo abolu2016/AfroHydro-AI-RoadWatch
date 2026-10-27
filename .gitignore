@@ -1,0 +1,25 @@
+# Credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*api_key*
+# Python
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+# Data and large files
+*.tif
+*.tiff
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.grib2
+*.nc
+# Local artifacts
+*.log
+.DS_Store
