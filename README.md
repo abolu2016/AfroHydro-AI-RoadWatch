@@ -50,9 +50,6 @@ RoadWatch sends computed rainfall and road-network results to Muse Spark 1.3 for
 
 If the API is unavailable, RoadWatch provides an evidence-based explanation without live AI inference.
 
-## Limitations
-
-Road-network connectivity is based on historical GRIP4 data. The indicators do not confirm road closures, flooding, or real-time travel safety.
 
 ## Hackathon
 
