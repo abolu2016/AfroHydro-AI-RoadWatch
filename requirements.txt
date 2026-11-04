@@ -1,12 +1,12 @@
 streamlit
-streamlit-folium
-folium
+numpy
+pandas
 geopandas
-pyogrio
 rasterio
 shapely
 pyproj
 networkx
-numpy
-pandas
+folium
+streamlit-folium
 openai
+pyogrio
