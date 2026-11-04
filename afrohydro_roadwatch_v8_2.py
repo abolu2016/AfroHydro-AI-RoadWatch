@@ -1,4 +1,4 @@
-# AfroHydro AI RoadWatch V8 - Africa Explorer + Meta Model API
+﻿# AfroHydro AI RoadWatch V8 - Africa Explorer + Meta Model API
 # Independent read-only application. Does not modify operational AfroHydro files.
 # Python 3.12, Streamlit, GeoPandas, Rasterio, Folium, NetworkX.
 from pathlib import Path
@@ -36,7 +36,7 @@ LABELS = ['Very little (0-0.5)', 'Light (0.5-2)', 'Low (2-5)', 'Moderate (5-10)'
           'Elevated (10-20)', 'High (20-50)', 'Very high (50+)', 'Missing data']
 
 st.set_page_config(page_title='AfroHydro RoadWatch V8', layout='wide')
-st.title('AfroHydro AI RoadWatch V8.1 - Africa Explorer')
+st.title('AfroHydro AI RoadWatch V8.2 - Africa Explorer')
 st.caption('Africa-wide named-city rainfall and selected GRIP4 road corridors | Read-only validation build')
 
 
@@ -670,3 +670,4 @@ for col, label in zip(COLORS+['#888888'], LABELS):
 if show_legend:
     st.markdown(legend+'</div>', unsafe_allow_html=True)
 st.caption('Rainfall categories describe accumulated depth over the selected period, not unusualness or flood probability. Africa-wide routing is experimental.')
+
